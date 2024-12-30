@@ -1,0 +1,11 @@
+DOMAIN-SUFFIX, 3.cn
+DOMAIN-SUFFIX, 360buyimg.com
+DOMAIN-SUFFIX, healthjd.com
+DOMAIN-SUFFIX, isvjcloud.com
+DOMAIN-SUFFIX, jd.com
+DOMAIN-SUFFIX, jd.hk
+DOMAIN-SUFFIX, jdallianz.com
+DOMAIN-SUFFIX, xiequ.cn
+DOMAIN-SUFFIX, hailiangip.com
+IP-CIDR, 106.39.0.0/16, no-resolve
+IP-CIDR, 116.198.0.0/16, no-resolve
