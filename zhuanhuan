@@ -1,2 +1,0 @@
-proxies:
-  - {"name":"美国新泽西1","server":"127.0.0.1","port":6555,"cipher":"aes-128-gcm","password":"shadowsocks","type":"ss"}
