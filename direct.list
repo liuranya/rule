@@ -1,0 +1,37 @@
+DOMAIN-SUFFIX, 3.cn
+DOMAIN-SUFFIX, 360buyimg.com
+DOMAIN-SUFFIX, healthjd.com
+DOMAIN-SUFFIX, isvjcloud.com
+DOMAIN-SUFFIX, jd.com
+DOMAIN-SUFFIX, jd.hk
+DOMAIN-SUFFIX, jdallianz.com
+DOMAIN-SUFFIX, xiequ.cn
+DOMAIN-SUFFIX, hailiangip.com
+IP-CIDR, 106.39.0.0/16, no-resolve
+IP-CIDR, 116.198.0.0/16, no-resolve
+
+DOMAIN,cinema.makima.online
+DOMAIN,theater.makima.online
+DOMAIN,anime.makima.online
+DOMAIN,restrict.makima.online
+DOMAIN-KEYWORD,hihonor
+DOMAIN-SUFFIX,honorfile.com
+DOMAIN-SUFFIX,honor.com
+DOMAIN-SUFFIX,wuhaoren.vip
+DOMAIN,jp.dpx.kevinchen.vip
+DOMAIN,iris.jp.kevinchen.vip
+DOMAIN,honor.zuimeitianqi.com
+DOMAIN,api-linkcube.com
+DOMAIN,api-huacloud.net
+DOMAIN,sub.godya.cc
+DOMAIN-SUFFIX,tencentcloudcs.com
+DOMAIN,cdnemby.t21w2.cn
+DOMAIN,api-linkcube.com
+DOMAIN,cn.pool.ntp.org
+DOMAIN,aaa.204cloud.com
+DOMAIN,cf.iris520.vip
+DOMAIN,dlpzk10086n0s1nilf.p12z.com
+
+DOMAIN-SUFFIX,unity3d.com
+DOMAIN-SUFFIX,unity.com
+
