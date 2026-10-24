@@ -1,42 +1,22 @@
-DOMAIN-SUFFIX, 3.cn
-DOMAIN-SUFFIX, 360buyimg.com
-DOMAIN-SUFFIX, healthjd.com
-DOMAIN-SUFFIX, isvjcloud.com
-DOMAIN-SUFFIX, jd.com
-DOMAIN-SUFFIX, jd.hk
-DOMAIN-SUFFIX, jdallianz.com
-DOMAIN-SUFFIX, xiequ.cn
-DOMAIN-SUFFIX, hailiangip.com
-DOMAIN-SUFFIX, neverloseczr.cc
-DOMAIN-SUFFIX, apexkill.com
+DOMAIN-SUFFIX,3.cn
+DOMAIN-SUFFIX,360buyimg.com
+DOMAIN-SUFFIX,healthjd.com
+DOMAIN-SUFFIX,isvjcloud.com
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,jd.hk
+DOMAIN-SUFFIX,jdallianz.com
+DOMAIN-SUFFIX,xiequ.cn
+DOMAIN-SUFFIX,hailiangip.com
+DOMAIN-SUFFIX,neverloseczr.cc
+DOMAIN-SUFFIX,apexkill.com
 DOMAIN-SUFFIX,codelinkvip.com
-IP-CIDR, 106.39.0.0/16, no-resolve
-IP-CIDR, 116.198.0.0/16, no-resolve
+IP-CIDR,106.39.0.0/16,no-resolve
+IP-CIDR,116.198.0.0/16,no-resolve
 
-DOMAIN,cinema.makima.online
-DOMAIN,theater.makima.online
-DOMAIN,anime.makima.online
-DOMAIN,restrict.makima.online
-DOMAIN-KEYWORD,hihonor
-DOMAIN-SUFFIX,honorfile.com
-DOMAIN-SUFFIX,honor.com
-DOMAIN-SUFFIX,wuhaoren.vip
-DOMAIN,jp.dpx.kevinchen.vip
-DOMAIN,iris.jp.kevinchen.vip
-DOMAIN,honor.zuimeitianqi.com
-DOMAIN,api-linkcube.com
-DOMAIN,api-huacloud.net
-DOMAIN,sub.godya.cc
-DOMAIN-SUFFIX,tencentcloudcs.com
-DOMAIN,cdnemby.t21w2.cn
-DOMAIN,api-linkcube.com
-DOMAIN,cn.pool.ntp.org
-DOMAIN,aaa.204cloud.com
-DOMAIN,cf.iris520.vip
-DOMAIN,dlpzk10086n0s1nilf.p12z.com
-
-# 国内Unity
+# Unity 中国版 / 团结引擎（实测全部解析到国内腾讯云节点）
+# unity.cn 下还有 packages / upr / api / id / docs / devops / uos 等一堆子域，用 suffix 一次覆盖
+DOMAIN-SUFFIX,unity.cn
+DOMAIN-SUFFIX,tuanjie.cn
+DOMAIN-SUFFIX,unitychina.cn
+# 国际版的下载端点必须直连：国内 IP 请求会被 302 到 download.unitychina.cn
 DOMAIN,download.unity3d.com
-DOMAIN,download.unitychina.cn
-DOMAIN,download.tuanjie.cn
-
