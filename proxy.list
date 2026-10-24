@@ -1,60 +1,3 @@
-DOMAIN-SUFFIX,nba.com
-DOMAIN,jssdk.opin.media
-DOMAIN,assets.adobedtm.com
-DOMAIN,i.cdn.turner.com
-DOMAIN,zn2lclvyzbtciqkic-nbacx.siteintercept.qualtrics.com
-DOMAIN,siteintercept.qualtrics.com
-DOMAIN,tags.tiqcdn.com
-DOMAIN,nbalpng.akamaized.net
-DOMAIN,nba.ra3ncmyg1p.com
-DOMAIN,cdn.prod.website-files.com
-DOMAIN,licensing.bitmovin.com
-DOMAIN,analytics.api.easelive.tv
-DOMAIN,nba.cloud.easelive.tv
-DOMAIN,nbaprop.hb-api.omtrdc.net
-DOMAIN,census-app.scorecardresearch.com
-DOMAIN,nbaprop.sc.omtrdc.net
-DOMAIN,ottapp-appgw-client.proda.nba.tv3cloud.com
-DOMAIN,nba.studio.easelive.tv
-DOMAIN,rest-prod-nba.evergent.com
-DOMAIN,nba-cdn.cloud.easelive.tv
-DOMAIN,distributions.crowdin.net
-DOMAIN,a6aa2.playfabapi.com
-DOMAIN,lpnba.akamaized.net
-DOMAIN-SUFFIX,max.com
-DOMAIN-SUFFIX,discomax.com
-DOMAIN-SUFFIX,media.h264.io
-DOMAIN-SUFFIX,litix.io
-DOMAIN-SUFFIX,brightline.tv
-DOMAIN-SUFFIX,branch.io
-DOMAIN-SUFFIX,warnermediacdn.com
-DOMAIN-SUFFIX,wmcdp.io
-DOMAIN-SUFFIX,ngtv.io
-DOMAIN-SUFFIX,pypestream.com
-DOMAIN-SUFFIX,arkoselabs.com
-
-# 这里面都是漏网之鱼的，方便网络测试，也方便走代理
-DOMAIN-SUFFIX,aizex.net
-DOMAIN-SUFFIX,aizex.top
-DOMAIN-SUFFIX,kindle
-DOMAIN-SUFFIX,kindle.it
-DOMAIN-SUFFIX,kindle.in
-DOMAIN-SUFFIX,kindle.com
-DOMAIN-SUFFIX,kindle.de
-DOMAIN-SUFFIX,kindle.jp
-DOMAIN-SUFFIX,kindle.fr
-DOMAIN-SUFFIX,kindleproject.com
-DOMAIN-SUFFIX,kindleoasisnews.com
-DOMAIN-SUFFIX,kindle.es
-DOMAIN-SUFFIX,kindleoasis.com
-DOMAIN-SUFFIX,kindleoasis.info
-DOMAIN-SUFFIX,kindleoasis.jp
-DOMAIN-SUFFIX,kindleoasis.org
-DOMAIN-SUFFIX,kindleoasis.us
-DOMAIN-SUFFIX,kindle.co.jp
-DOMAIN-SUFFIX,kindle.co.uk
-DOMAIN-SUFFIX,gofile.io
-
 # 国外DNS
 DOMAIN-SUFFIX,dns.google
 DOMAIN-SUFFIX,adguard-dns.com
@@ -72,14 +15,16 @@ IP-CIDR,9.9.9.11/32,no-resolve
 IP-CIDR,149.112.112.11/32,no-resolve
 IP-CIDR,94.140.14.49/32,no-resolve
 
-# Unity走这个
-DOMAIN,unity.com
-DOMAIN,www.unity.com
+# Unity 国际版
+# 故意用 DOMAIN 而不是 DOMAIN-SUFFIX,unity3d.com：
+# download.unity3d.com 在国内会被 302 到 download.unitychina.cn（国内镜像），
+# 一旦被 suffix 规则卷进代理就拿不到这个跳转，会从境外节点下几个 GB。
+DOMAIN-SUFFIX,unity.com
 DOMAIN,unity3d.com
 DOMAIN,www.unity3d.com
-DOMAIN,assetstore.unity.com
-DOMAIN,marketplace.unity.com
+DOMAIN,license.unity3d.com
+DOMAIN,core.cloud.unity3d.com
 
-# 腾讯云海外国际版
+# 腾讯云海外国际版（实测解析到新加坡 43.169.32.91，直连超时，必须走代理）
 DOMAIN-SUFFIX,workbuddy.ai
 DOMAIN-SUFFIX,codebuddy.ai
