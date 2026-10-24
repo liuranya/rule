@@ -9,6 +9,7 @@ DOMAIN-SUFFIX, xiequ.cn
 DOMAIN-SUFFIX, hailiangip.com
 DOMAIN-SUFFIX, neverloseczr.cc
 DOMAIN-SUFFIX, apexkill.com
+DOMAIN-SUFFIX,codelinkvip.com
 IP-CIDR, 106.39.0.0/16, no-resolve
 IP-CIDR, 116.198.0.0/16, no-resolve
 
@@ -33,7 +34,8 @@ DOMAIN,cn.pool.ntp.org
 DOMAIN,aaa.204cloud.com
 DOMAIN,cf.iris520.vip
 DOMAIN,dlpzk10086n0s1nilf.p12z.com
-DOMAIN,codelink.vip
+
+# 国内Unity
 DOMAIN,download.unity3d.com
 DOMAIN,download.unitychina.cn
 DOMAIN,download.tuanjie.cn
