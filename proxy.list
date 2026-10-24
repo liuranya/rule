@@ -24,6 +24,7 @@ DOMAIN,unity3d.com
 DOMAIN,www.unity3d.com
 DOMAIN,license.unity3d.com
 DOMAIN,core.cloud.unity3d.com
+DOMAIN,public-cdn.cloud.unity3d.com
 
 # 腾讯云海外国际版（实测解析到新加坡 43.169.32.91，直连超时，必须走代理）
 DOMAIN-SUFFIX,workbuddy.ai
