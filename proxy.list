@@ -29,3 +29,6 @@ DOMAIN,public-cdn.cloud.unity3d.com
 # 腾讯云海外国际版（实测解析到新加坡 43.169.32.91，直连超时，必须走代理）
 DOMAIN-SUFFIX,workbuddy.ai
 DOMAIN-SUFFIX,codebuddy.ai
+
+# Wallpaper Engine API：固定走代理，目前也是通过兜底走新加坡
+DOMAIN-SUFFIX,wallpaperengineapi.com
